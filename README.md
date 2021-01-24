@@ -2,9 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Run `npm start` to run the app
-
 You will need the [https://github.com/pabloLagioia/payments-service](payments-service) running to see it in action.
+
+## How to run
+npm install
+npm start
 
 ## Available Scripts
 
