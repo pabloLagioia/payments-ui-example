@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Example Payments UI
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Run `npm start` to run the app
+
+You will need the [https://github.com/pabloLagioia/payments-service](payments-service) running to see it in action.
 
 ## Available Scripts
 
