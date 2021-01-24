@@ -1,0 +1,40 @@
+.transaction:hover {
+  cursor: pointer;
+}
+
+.transaction .small-title {
+  font-weight: bold;
+}
+
+.transaction-header.active, .transaction-header:hover {
+  background-color: #ccc;
+}
+
+.transaction-header {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.transaction-details {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.transaction-header.active:after {
+  content: "\2212";
+}
+.transaction-header:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}

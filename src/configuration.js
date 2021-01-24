@@ -1,0 +1,1 @@
+export const paymentsApiHost = "http://localhost:3001";
